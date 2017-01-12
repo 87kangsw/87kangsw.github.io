@@ -4,7 +4,7 @@ bio: iOS, iOS Developer
 
 # twitter summary info
 description: > # this means to ignore newlines until "baseurl:"
-  #iOS #iOS Developer 
+  #iOS #iOS Developer #I love cat. #Moong's Father
 
 # if it's an external image, update below for true
 # better with square images
@@ -48,7 +48,7 @@ authors:
         name: Kanz
         bio: iOS, iOS Developer, Cat
         external-image: false
-        picture: assets/images/profile.png
+        picture: assets/images/profile.jpg
         email: 87kangsw@gmail.com
 
 # do you want a larger site? change the option below
