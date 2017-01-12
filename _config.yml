@@ -1,17 +1,16 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Kanz
+bio: iOS Developer, Moong's Father, I like cat.
 
-# twitter summary info
-description: A blog about technology and stuff related
+# # twitter summary info
+# description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 
-url: https://koppl.in/indigo
-# your url: http://USERNAME.github.io
+url: http://87kangsw.github.io
 
 permalink: /:title/
 
@@ -26,24 +25,24 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+# disqus: mydisqus
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
-twitter: mytwitter
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
+# youtube: myyoutube
+# spotify: myspotify
 github: mygithub
-stackoverflow: 7044681/mystackoverflow
-quora: userquora
-reddit: username
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+email: 87kangsw@gmail.com
 
 authors:
     johndoe:
