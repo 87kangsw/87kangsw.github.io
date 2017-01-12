@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.png
+picture: assets/images/profile.jpg
 
 url: http://87kangsw.github.io
 # your url: http://USERNAME.github.io
