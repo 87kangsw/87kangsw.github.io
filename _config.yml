@@ -1,16 +1,18 @@
 # main text of home
 name: Kanz
-bio: iOS Developer, Moong's Father, I like cat.
+bio: iOS, iOS Developer
 
-# # twitter summary info
-# description: A blog about technology and stuff related
+# twitter summary info
+description: > # this means to ignore newlines until "baseurl:"
+  #iOS #iOS Developer 
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.png
 
 url: http://87kangsw.github.io
+# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -25,38 +27,29 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-# disqus: mydisqus
+disqus: 87kangsw
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+email: 87kangsw@gmail.com
+facebook: sungwook.kang.923
+github: 87kangsw
+instagram: 87kangsw
 # twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
 # medium: medium
 # vimeo: myvimeo
-email: 87kangsw@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    kanz:
+        name: Kanz
+        bio: iOS, iOS Developer, Cat
         external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/profile.png
+        email: 87kangsw@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -64,8 +57,8 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -107,3 +100,5 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, indigo-gh-pages.zip, Rakefile, screen-shot.png, travis.sh, tasks]

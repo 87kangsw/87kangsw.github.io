@@ -9,8 +9,9 @@ layout: page
 <h1 class="title">{{ page.title }}</h1>
 
 <span class="date">
-    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
-    {% if site.read-time %} - {% include read-time.html %}{% endif %}
+    <!-- <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time> -->
+    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+    <!-- {% if site.read-time %} - {% include read-time.html %}{% endif %} -->
 </span>
 
 {% if site.show-tags %}
@@ -40,9 +41,9 @@ layout: page
     {% include related.html %}
 {% endif %}
 
-{% if site.show-author %}
+<!-- {% if site.show-author %}
     {% include author.html %}
-{% endif %}
+{% endif %} -->
 
 {% if site.disqus %}
     {% include disqus.html %}
