@@ -3,8 +3,8 @@ name: Kanz
 bio: iOS, iOS Developer
 
 # twitter summary info
-description: > # this means to ignore newlines until "baseurl:"
-  #iOS #iOS Developer #I love cat. #Moong's Father
+# description: > # this means to ignore newlines until "baseurl:"
+#   #iOS #iOS Developer
 
 # if it's an external image, update below for true
 # better with square images
@@ -12,7 +12,6 @@ external-image: false
 picture: assets/images/profile.jpg
 
 url: http://87kangsw.github.io
-# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -20,14 +19,14 @@ markdown: kramdown
 highlighter: rouge
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: UA-91948401-1
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: 87kangsw
+# disqus: 87kangsw
 
 # if you don't have any of social below, comment the line
 email: 87kangsw@gmail.com
@@ -46,7 +45,7 @@ instagram: 87kangsw
 authors:
     kanz:
         name: Kanz
-        bio: iOS, iOS Developer, Cat
+        bio: iOS, iOS Developer
         external-image: false
         picture: assets/images/profile.jpg
         email: 87kangsw@gmail.com
