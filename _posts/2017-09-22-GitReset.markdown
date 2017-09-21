@@ -1,0 +1,28 @@
+---
+title: Git Reset 복구
+layout: post
+date: 2017-09-22 00:00
+tag: 
+- git
+- bitbucket
+image: “”
+headerImage: false
+blog: true
+description: “git 잘못 reset한 내용 복구하기”
+author: Kanz
+---
+
+Bitbucket으로 Commit을 잘못하는 경우가 가끔 있다.
+Reset, Revert 등을 잘못 사용하다가 되돌릴 수 없는 지경이 된 적이 있다.
+검색을 해보니 복구하는 방법이 있어서 기록을 해두려고 한다.
+
+터미널에서 해당 프로젝트 폴더로 이동후 (물론 git이 설정되어있어야 한다.)    
+<code>git reflog</code>  를 입력하면 
+다음과 같은 커밋 로그를 확인할 수 있다.
+
+![git_reflog](../assets/images/postImages/gitreflog.png)
+
+원하는 HEAD로 이동하기 위해서는     
+<code>git reset --hard HEAD@{21}</code>    
+를 입력하면 된다.
+
