@@ -1,5 +1,5 @@
 ---
-title: IBDesignable Crash 확인
+title: "[Xcode] IBDesignable Crash 확인"
 layout: post
 date: 2017-08-23 00:00
 tag: 

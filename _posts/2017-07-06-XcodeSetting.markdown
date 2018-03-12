@@ -1,5 +1,5 @@
 ---
-title: 프로젝트 설정
+title: "[Xcode] 프로젝트 설정"
 layout: post
 date: 2017-07-06 00:00
 tag: 
