@@ -2,14 +2,6 @@
 title: "[Python & Django] 노마드코더 강의 1일차"
 layout: post
 date: 2018-03-06 00:00
-tag: 
-- Python
-- Django
-- ReactJS
-- React Native
-image: “”
-headerImage: false
-blog: true
 description: 노마드코더 강의 1일차
 author: Kanz
 ---
