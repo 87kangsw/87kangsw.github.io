@@ -7,5 +7,5 @@ author: Kanz
 
 iOS Developer.
 
-Email : 87kangsw@gmail.com   
+[Email](mailto:87kangsw@gmail.com)   
 [Resume](https://github.com/87kangsw/resume)   
